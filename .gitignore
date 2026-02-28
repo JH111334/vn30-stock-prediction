@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data - never push raw data to GitHub
+data/raw/
+data/processed/
+data/external/
+
+# Models - large files
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Environment
+.conda/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.venv/
+__pycache__/
